@@ -1,0 +1,6 @@
+INFO  09:58:23 Loading MassTransit.RuntimeServices Services...
+INFO  09:58:31 Subscription Service Starting
+INFO  09:58:31 Subscription Service Started
+INFO  10:04:01 Subscription Service Stopping
+INFO  10:04:01 Subscription Service Stopped
+INFO  10:04:01 MassTransit Runtime Services are exiting...

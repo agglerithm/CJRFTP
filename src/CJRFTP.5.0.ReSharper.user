@@ -1,0 +1,42 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPRepository.cs" caret="5265" fromTop="12" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:ProcEnvironment.cs" caret="1217" fromTop="7" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/d:Configs/f:StructureMapBootstrapper.cs" caret="675" fromTop="6" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FtpClientSpecs.cs" caret="1698" fromTop="6" />
+      <File id="8E316168-1675-494C-8056-1558878196BF/f:StructureMapServiceLocator.cs" caret="824" fromTop="6" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Mockery/f:FileListRequestSpecs.cs" caret="106" fromTop="3" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:App.config" caret="426" fromTop="5" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8E316168-1675-494C-8056-1558878196BF/f:StructureMapServiceLocator.cs" caret="178" fromTop="4" />
+      <File id="8E316168-1675-494C-8056-1558878196BF/f:StructureMapServiceLocator.cs" caret="812" fromTop="6" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPRepository.cs" caret="1283" fromTop="6" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPRepository.cs" caret="2318" fromTop="7" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPRepository.cs" caret="6199" fromTop="7" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:ProcEnvironment.cs" caret="1181" fromTop="7" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:ProcEnvironment.cs" caret="1548" fromTop="9" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/d:Configs/f:StructureMapBootstrapper.cs" caret="759" fromTop="7" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Mockery/f:FileListRequestSpecs.cs" caret="1245" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

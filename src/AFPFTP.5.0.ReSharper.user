@@ -1,0 +1,292 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="d:Miscellaneous Files/f:TDNetRunListener.cs/l:C!?Projects?mspec?Source?Machine.Specifications.TDNetRunner?TDNetRunListener.cs" caret="1651" fromTop="19" />
+      <File id="95DE3EC9-BF21-4875-92FF-B1792B42AC4F/f:FileUtilitiesExtensions.cs" caret="566" fromTop="5" />
+      <File id="95DE3EC9-BF21-4875-92FF-B1792B42AC4F/f:ConfigurationExtensions.cs" caret="1719" fromTop="18" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:FtpWorker.cs" caret="1035" fromTop="19" />
+      <File id="95DE3EC9-BF21-4875-92FF-B1792B42AC4F/f:FTPLocalFileRepository.cs" caret="3259" fromTop="20" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:ProcEnvironment.cs" caret="250" fromTop="9" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPConnection.cs" caret="5195" fromTop="16" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="1434" fromTop="31" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FtpClientSpecs.cs" caret="532" fromTop="17" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="3724" fromTop="17" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:FtpUpdateService.cs" caret="467" fromTop="17" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:PGPWrapperSpecs.cs" caret="328" fromTop="0" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/d:Configs/f:StructureMapRegistry.cs" caret="387" fromTop="17" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/d:Configs/f:StructureMapBootstrapper.cs" caret="209" fromTop="6" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:App.config" caret="2603" fromTop="9" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:EdictFTPService.cs" caret="2596" fromTop="26" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPServicesSpecs.cs" caret="282" fromTop="9" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:FedexFTPService.cs" caret="2136" fromTop="21" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPNavigator.cs" caret="2685" fromTop="26" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:Program.cs" caret="1364" fromTop="30" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPRepository.cs" caret="5210" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPNavigator.cs" caret="1991" fromTop="26" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="742" fromTop="37" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="742" fromTop="8" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="3173" fromTop="37" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="2218" fromTop="7" />
+      <File id="893AF68C-63AD-4266-AC0A-B4ADA512A592/f:FTPNavigator.cs" caret="564" fromTop="17" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="3149" fromTop="24" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="2950" fromTop="21" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="2950" fromTop="22" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="2950" fromTop="28" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPNavigatorSpecs.cs" caret="2950" fromTop="23" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="0" fromTop="0" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="91" fromTop="4" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="802" fromTop="18" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="2069" fromTop="16" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FileListRequestSpecs.cs" caret="3724" fromTop="17" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPServicesSpecs.cs" caret="385" fromTop="15" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:PGPWrapperSpecs.cs" caret="894" fromTop="23" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:PGPWrapperSpecs.cs" caret="2194" fromTop="24" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:PGPWrapperSpecs.cs" caret="98" fromTop="5" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:PGPWrapperSpecs.cs" caret="0" fromTop="0" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPServicesSpecs.cs" caret="121" fromTop="5" />
+      <File id="1578D538-F34F-4894-9CC1-5EA579054E6F/d:Integration/f:FTPServicesSpecs.cs" caret="0" fromTop="0" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:App.config" caret="429" fromTop="6" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:App.config" caret="4959" fromTop="33" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:EdictFTPService.cs" caret="0" fromTop="0" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:EdictFTPService.cs" caret="169" fromTop="7" />
+      <File id="610FB416-88AE-4AEF-B8D7-DD9492DC3DF0/f:App.config" caret="2637" fromTop="10" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:FedexFTPService.cs" caret="821" fromTop="19" />
+      <File id="1CE9630A-DC9E-4E6A-881C-CBE10D9505B8/f:FedexFTPService.cs" caret="5486" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Logger`0" priority="6" />
+      <Item value="this" priority="13" />
+      <Item value="internal" priority="0" />
+      <Item value="class" priority="1" />
+      <Item value="public" priority="9" />
+      <Item value="FtpWorker`0" priority="2" />
+      <Item value="IFTPService`0" priority="1" />
+      <Item value="Container`0" priority="6" />
+      <Item value="perform_all_tasks`0" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="long" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="return" priority="9" />
+      <Item value="num" priority="0" />
+      <Item value="svc" priority="0" />
+      <Item value="list" priority="0" />
+      <Item value="errStr" priority="2" />
+      <Item value="ex" priority="3" />
+      <Item value="IFtpWorker`0" priority="1" />
+      <Item value="HostType`0" priority="0" />
+      <Item value="private" priority="9" />
+      <Item value="readonly" priority="3" />
+      <Item value="AFPST" priority="0" />
+      <Item value="Common" priority="0" />
+      <Item value="Infrastructure" priority="0" />
+      <Item value="void" priority="3" />
+      <Item value="string" priority="16" />
+      <Item value="var" priority="14" />
+      <Item value="_dataUtil" priority="0" />
+      <Item value="sql" priority="0" />
+      <Item value="subject" priority="1" />
+      <Item value="recipients" priority="1" />
+      <Item value="body" priority="1" />
+      <Item value="queue_notify_msg`0" priority="0" />
+      <Item value="INotificationSender`0" priority="2" />
+      <Item value="NotificationSender`0" priority="0" />
+      <Item value="_notifier" priority="0" />
+      <Item value="if" priority="8" />
+      <Item value="files" priority="2" />
+      <Item value="IFTPLocalFileRepository`0" priority="2" />
+      <Item value="_fileRepo" priority="2" />
+      <Item value="_config" priority="0" />
+      <Item value="_conn" priority="3" />
+      <Item value="new" priority="4" />
+      <Item value="FTPConnection" priority="1" />
+      <Item value="FileStyleUriParser`0" priority="0" />
+      <Item value="f" priority="3" />
+      <Item value="Join`4" priority="0" />
+      <Item value="lst" priority="3" />
+      <Item value="file" priority="4" />
+      <Item value="encryptedPath" priority="0" />
+      <Item value="originPath" priority="2" />
+      <Item value="workingPath" priority="1" />
+      <Item value="destPath" priority="2" />
+      <Item value="fileEntity" priority="2" />
+      <Item value="try" priority="0" />
+      <Item value="_fUtil" priority="0" />
+      <Item value="workingFileName" priority="0" />
+      <Item value="IFileUtilities`0" priority="0" />
+      <Item value="Directory`0" priority="1" />
+      <Item value="path" priority="2" />
+      <Item value="_fu" priority="0" />
+      <Item value="ENCRYPTED_FOLDER" priority="0" />
+      <Item value="DOWNLOAD_FOLDER" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="encrypter" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="_services" priority="0" />
+      <Item value="_isWorking" priority="2" />
+      <Item value="true" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="reg" priority="0" />
+      <Item value="PASSPHRASE" priority="0" />
+      <Item value="ProcEnvironment`0" priority="0" />
+      <Item value="StructureMapServiceLocator`0" priority="2" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="AFPFTPException`0" priority="2" />
+      <Item value="base" priority="2" />
+      <Item value="_filename" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="AFPFTPException" priority="0" />
+      <Item value="filename" priority="0" />
+      <Item value="msg" priority="0" />
+      <Item value="Folder" priority="1" />
+      <Item value="folder" priority="0" />
+      <Item value="DirectoryInfo" priority="0" />
+      <Item value="uploadFolder" priority="1" />
+      <Item value="catch" priority="0" />
+      <Item value="FileName" priority="0" />
+      <Item value="config" priority="2" />
+      <Item value="afpftpex" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="arr" priority="0" />
+      <Item value="fldr" priority="1" />
+      <Item value="MoveUp`0" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="adjustAndReturnCurrentDirectory`0" priority="0" />
+      <Item value="remotePath" priority="0" />
+      <Item value="connection" priority="2" />
+      <Item value="_nav" priority="0" />
+      <Item value="Because`0" priority="0" />
+      <Item value="It`0" priority="0" />
+      <Item value="Download`0" priority="1" />
+      <Item value="repo" priority="1" />
+      <Item value="_997Path" priority="0" />
+      <Item value="_997InvoicePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Services.Logging.Logger">
+      <Item value="Error`0" priority="5" />
+      <Item value="Info`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Infrastructure.Container">
+      <Item value="GetContainer`0" priority="0" />
+      <Item value="Register`2" priority="1" />
+      <Item value="CommonSetUp`0" priority="0" />
+      <Item value="Resolve`1" priority="1" />
+      <Item value="Reset`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FTPServices.IFTPService">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Infrastructure.HostType">
+      <Item value="ApplicationOrTest" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Services.IDataUtilities">
+      <Item value="CommandExecute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Data.IFluentCommand`1">
+      <Item value="AsCommand`0" priority="1" />
+      <Item value="AddString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPFTP.Common.INotificationSender">
+      <Item value="SendMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPFTP.Common.IFTPLocalFileRepository">
+      <Item value="GetUploadFiles`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.IO.FileEntity">
+      <Item value="FileName" priority="6" />
+      <Item value="FullPath" priority="0" />
+      <Item value="ContainingFolder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ConcatenateFilePaths`0" priority="5" />
+      <Item value="Replace`0" priority="0" />
+      <Item value="Split`0" priority="0" />
+      <Item value="ToCharArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="ForEach`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Services.IFileUtilities">
+      <Item value="MoveFileWithOverwrite`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists`0" priority="0" />
+      <Item value="CreateDirectory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Move`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="Use`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.SmartInstance`1">
+      <Item value="Ctor`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.SmartInstance`1+DependencyExpression`1">
+      <Item value="Is`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ProcessFtp.ProcEnvironment">
+      <Item value="SetUp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Practices.ServiceLocation.ServiceLocator">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.ServiceLocation.IServiceLocator">
+      <Item value="GetInstance`1" priority="0" />
+      <Item value="GetAllInstances`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPFTP.Common.FTPLocalFileConfig">
+      <Item value="UploadFolder" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Topshelf.Configuration.Dsl.IRunnerConfigurator">
+      <Item value="BeforeStartingServices`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+      <Item value="Join`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FTPClient.IFTPConnection">
+      <Item value="Lock`0" priority="0" />
+      <Item value="Unlock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FTPClient.IFTPNavigator">
+      <Item value="SetCurrentDirectory`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

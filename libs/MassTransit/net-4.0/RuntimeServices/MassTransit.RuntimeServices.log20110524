@@ -1,0 +1,11 @@
+INFO  01:05:06 Loading MassTransit.RuntimeServices Services...
+INFO  01:05:10 Using Configuration File: C:\Projects\AFPST\dist\MassTransit\net-4.0\RuntimeServices\MassTransit.RuntimeServices.exe.config
+INFO  01:05:27 Subscription Service Starting
+INFO  01:05:28 Subscription Service Started
+INFO  01:05:32 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [a7525439-f466-4267-a588-9ebf00e498e8]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [1c2eb8a1-b7cc-41d5-bddd-9ebf00e4bc3c]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [a2f4e897-1a49-4992-bae4-9ebf00e4df69]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [82769235-7299-488a-814d-9ecc00efa826]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [ce3ed8b2-2b5b-4c76-b71e-9ecc00efcb7a]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_MessagingTests?tx=false [32a2d5db-85a2-4e01-a2e8-9ecc00efeea5]
+INFO  01:05:33 Subscription Client Added: msmq://jreeselaptop2/mt_shipment_requests_in?tx=false [ec38be46-2225-49f2-bf7b-9eed00d7a651]

@@ -1,0 +1,6 @@
+INFO  09:39:07 Loading MassTransit.RuntimeServices Services...
+INFO  09:39:15 Subscription Service Starting
+INFO  09:39:15 Subscription Service Started
+INFO  09:49:43 Subscription Client Added: msmq://jreeselaptop2/qa_sender?tx=false [fb73afd9-e762-4e70-9c44-9e0900a1f775]
+INFO  09:49:44 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/qa_sender?tx=false [4471ddd7-6246-4769-a7e7-9e0900a1f9d1] []
+INFO  09:49:44 Subscription Added: WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages  msmq://jreeselaptop2/qa_sender?tx=false [b35f86ef-dc31-4652-9cc4-9e0900a1f9f1] []

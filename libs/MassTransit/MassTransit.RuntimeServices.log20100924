@@ -1,0 +1,7 @@
+INFO  11:03:29 Loading MassTransit.RuntimeServices Services...
+INFO  11:03:35 Subscription Service Starting
+INFO  11:03:36 Subscription Service Started
+INFO  01:38:35 Subscription Client Added: msmq://jreeselaptop2/mt_invoiced_orders?tx=false [225d3980-8f59-41e5-9f3d-9dfb00e0d3a1]
+INFO  01:38:35 Subscription Client Removed: msmq://jreeselaptop2/mt_invoiced_orders?tx=false [2ce2c0b2-4526-4c0f-b7c7-9d9d00abfe5b]
+INFO  01:38:35 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_invoiced_orders?tx=false [7c9df1d7-7f33-414d-ba16-9d9d00abff30] []
+INFO  01:38:37 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_invoiced_orders?tx=false [fda161f6-a01e-43dd-8c7e-9dfb00e0d7e8] []

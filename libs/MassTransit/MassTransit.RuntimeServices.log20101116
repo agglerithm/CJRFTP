@@ -1,0 +1,10 @@
+INFO  12:43:48 Loading MassTransit.RuntimeServices Services...
+INFO  12:43:56 Subscription Service Starting
+INFO  12:43:56 Subscription Service Started
+INFO  12:56:00 Subscription Client Added: msmq://jreeselaptop2/mt_reissue_orders?tx=false [050fd797-0c71-4f9e-9bc0-9e3000d52058]
+INFO  12:56:00 Subscription Client Removed: msmq://jreeselaptop2/mt_reissue_orders?tx=false [0b8dd014-c561-43db-802b-9da000fde5df]
+INFO  12:56:00 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_reissue_orders?tx=false [30694be1-1242-47d5-8084-9da000fde664] []
+INFO  12:56:00 Subscription Removed: AFPST.Common.Messages.CustomerOrderHasTimedOutMessage, AFPST.Common  msmq://jreeselaptop2/mt_reissue_orders?tx=false [dfbde617-c6c6-431a-adea-9da000fde67a] []
+INFO  12:56:01 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_reissue_orders?tx=false [fba4775c-8513-401e-ac0f-9e3000d52443] []
+INFO  12:56:01 Subscription Added: AFPST.Common.Messages.CustomerOrderHasTimedOutMessage, AFPST.Common  msmq://jreeselaptop2/mt_reissue_orders?tx=false [4c562869-2c85-4688-929a-9e3000d5245a] []
+INFO  12:56:01 Subscription Added: AFPST.Common.Messages.LabelPrintRequestHasTimedOutMessage, AFPST.Common  msmq://jreeselaptop2/mt_reissue_orders?tx=false [cb91d0f8-8240-48be-b2ef-9e3000d52464] []

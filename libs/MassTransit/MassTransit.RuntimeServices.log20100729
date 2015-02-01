@@ -1,0 +1,79 @@
+INFO  10:16:43 Loading MassTransit.RuntimeServices Services...
+INFO  10:16:50 Subscription Service Starting
+INFO  10:16:50 Subscription Service Started
+INFO  10:16:51 Subscription Client Added: msmq://jreeselaptop2/mt_health_control?tx=false [616ed2e1-75c4-46c2-b131-9dc200a96c2a]
+INFO  10:16:52 Subscription Client Removed: msmq://jreeselaptop2/mt_health_control?tx=false [589652fd-88a1-435c-89bc-9dc100d63694]
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [cc6537ca-d4ba-4739-8b22-9dc100d637f0] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [4b838f24-7530-4591-8d53-9dc100d6380e] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [2ed67407-9072-4f24-b968-9dc100d63818] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [43040990-fc8e-40c0-ba19-9dc100d63821] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [a1d5f814-459b-4d8f-b1fa-9dc100d63829] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [55ff3f61-11a8-4ee4-ba8e-9dc100d63830] []
+INFO  10:16:52 Unknown message type AFPST.Common.Messages.CustomerOrderHasTimedOutMessage, AFPST.Common, unable to add subscription
+INFO  10:16:52 Unknown message type EmailService.Messages.SendNotificationMessage, EmailService.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type EdiMessages.OrderRequestReceivedMessage, EdiMessages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.WwtMrnRecievedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.LineItemHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type EdiMessages.OrderHasBeenShippedMessage, EdiMessages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.OrderMatchedToMrnsMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.WwtMrnHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  10:16:52 Health Service Starting
+INFO  10:16:52 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [dd6b3dfa-e16c-461f-a45d-9dc200a96dfd] []
+INFO  10:16:52 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [4a65ac9d-9764-4ae4-b12b-9dc200a96e1c] []
+INFO  10:16:52 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [a7398fe4-8ef9-4c8e-8a7a-9dc200a96e24] []
+INFO  10:16:52 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [03466bd2-813c-4057-b2c2-9dc200a96e2b] []
+INFO  10:16:52 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [b5f1a423-a8bb-469a-b12b-9dc200a96e32] []
+INFO  10:16:52 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [6a3b86fc-c12c-4f51-855c-9dc200a96e3a] []
+INFO  10:16:52 Health Service Started
+INFO  10:16:52 Subscription Client Added: msmq://jreeselaptop2/mt_timeout_control?tx=false [932db338-0063-4dfd-bf06-9dc200a96e4f]
+INFO  10:16:52 Subscription Client Removed: msmq://jreeselaptop2/mt_timeout_control?tx=false [04bb53c4-826a-443a-90f3-9dc100d63850]
+INFO  10:16:52 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [de18f46a-cf24-4252-a1fc-9dc100d6389e] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [f9e414a7-00d5-4dc1-8d54-9dc100d638cc] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [65f178a4-d456-4bc2-912d-9dc100d638cf] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [84b98a86-a0d2-46c7-8e2d-9dc100d638df] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [a3836b34-1482-40e4-b7de-9dc100d638e4] []
+INFO  10:16:52 Subscription Removed: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [cd53aa7e-89ec-47bc-8ff3-9dc100d638e9] []
+INFO  10:16:53 Unknown message type AFPST.Common.Messages.CustomerOrderHasTimedOutMessage, AFPST.Common, unable to add subscription
+INFO  10:16:53 Unknown message type EmailService.Messages.SendNotificationMessage, EmailService.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type EdiMessages.OrderRequestReceivedMessage, EdiMessages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.WwtMrnRecievedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.LineItemHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type EdiMessages.OrderHasBeenShippedMessage, EdiMessages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.OrderMatchedToMrnsMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.WwtMrnHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  10:16:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [2b9a622a-3a73-4273-a0c1-9dc200a96ee7] []
+INFO  10:16:53 Timeout Service Starting
+INFO  10:16:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [9af24616-4bca-4d9a-936f-9dc200a96f12] []
+INFO  10:16:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [7e327d80-d26a-4d2c-831a-9dc200a96f15] []
+INFO  10:16:53 Timeout Service Started
+INFO  10:16:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [0e5917bf-c90f-41c4-8109-9dc200a96f22] []
+INFO  10:16:53 Subscription Added: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [acca253a-b31e-4ba7-ac61-9dc200a96f25] []
+INFO  10:16:53 Subscription Added: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [14de0a9b-7916-4d93-87f7-9dc200a96f2a] []
+INFO  12:37:36 Subscription Client Added: msmq://jreeselaptop2/mt_label_printer?tx=false [20947858-30d5-4da4-a1bf-9dc200d014f5]
+INFO  12:37:37 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_label_printer?tx=false [232efe2e-d665-428f-bd6b-9dc200d01663] []
+INFO  12:37:37 Subscription Added: AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common  msmq://jreeselaptop2/mt_label_printer?tx=false [c622ac46-8425-47c3-bbf8-9dc200d0168b] []
+INFO  12:37:37 Unknown message type AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common, unable to add subscription
+INFO  12:37:37 Unknown message type AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common, unable to add subscription
+INFO  12:37:37 Subscription Added: MassTransit.Fault`1[[AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common]], MassTransit  msmq://jreeselaptop2/mt_label_printer?tx=false [816f7f1e-b05e-43e9-b599-9dc200d0169d] []
+INFO  12:37:37 Unknown message type MassTransit.Fault`1[[AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common]], MassTransit, unable to add subscription
+INFO  12:37:37 Unknown message type MassTransit.Fault`1[[AFPST.Common.Messages.LabelPrintRequestMessage, AFPST.Common]], MassTransit, unable to add subscription
+INFO  12:46:39 Subscription Client Added: msmq://jreeselaptop2/mt_fedexshipping?tx=false [69b402c4-c945-4c69-876b-9dc200d291ad]
+INFO  12:46:39 Subscription Client Removed: msmq://jreeselaptop2/mt_fedexshipping?tx=false [0d4d822d-42a0-4915-9481-9da000ee6d5e]
+INFO  12:46:39 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [da657131-4069-4901-bb79-9da000ee6e5c] []
+INFO  12:46:40 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [2bd3e872-cca5-411a-92f3-9dc200d292d4] []
+INFO  12:50:32 Subscription Client Added: msmq://jreeselaptop2/mt_fedexshipping?tx=false [969bf134-b124-44ed-9d97-9dc200d3a1d3]
+INFO  12:50:32 Subscription Client Removed: msmq://jreeselaptop2/mt_fedexshipping?tx=false [69b402c4-c945-4c69-876b-9dc200d291ad]
+INFO  12:50:32 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [2bd3e872-cca5-411a-92f3-9dc200d292d4] []
+INFO  12:50:32 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [6412ed61-db51-4e20-8704-9dc200d3a327] []

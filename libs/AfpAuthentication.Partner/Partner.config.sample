@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<appSettings>
+  <!--AfpAuthentication uses the following configurations for the partner services-->
+  <add key="AfpAuthenticationServer" value="http://authserver.local"/>
+  <add key="AfpClientId" value="test"/>
+  <add key="AfpClientSecret" value="clientsecret"/>
+  <add key="RefreshExpiresIn" value="30"/>
+  <add key="AuthRestUrl" value="http://authrest.local:8080"/>
+</appSettings>

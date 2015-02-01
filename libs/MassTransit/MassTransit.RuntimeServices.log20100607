@@ -1,0 +1,232 @@
+INFO  08:51:46 Loading MassTransit.RuntimeServices Services...
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90113
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90114
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90115
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90116
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90117
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90118
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90119
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90120
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+ERROR 08:51:49 Unrecognized message msmq://jreeselaptop2/mt_subscriptions?tx=false:33ad1aab-ad69-4a5e-8fc8-03198f21891d\90121
+System.Runtime.Serialization.SerializationException: Failed to serialize message ---> Magnum.Reflection.FastActivatorException: An object of type Guid could not be created. No usable constructor found
+   at Magnum.Reflection.FastActivator`1.<InitializeNew>b__0() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 99
+   at Magnum.Reflection.FastActivator`1.Create() in d:\BuildAgent-02\work\a715d5e9131640da\src\Magnum\Reflection\FastActivator.1.cs:line 142
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 33
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.ReadProperty(IDeserializerContext context, T instance) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 66
+   at MassTransit.Serialization.Custom.ObjectDeserializer`1.Deserialize(IDeserializerContext context) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\ObjectDeserializer.cs:line 49
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize(String ns) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 95
+   at MassTransit.Serialization.Custom.DeserializerContext.Deserialize() in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\DeserializerContext.cs:line 77
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.DeserializeMessage(XmlReader reader) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 130
+   at MassTransit.Serialization.Custom.CustomXmlSerializer.Deserialize(Stream input) in c:\sandbox\MassTransit\src\MassTransit\Serialization\Custom\CustomXmlSerializer.cs:line 95
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 57
+   --- End of inner exception stack trace ---
+   at MassTransit.Serialization.XmlMessageSerializer.Deserialize(Stream stream) in c:\sandbox\MassTransit\src\MassTransit\Serialization\XmlMessageSerializer.cs:line 79
+   at MassTransit.Transports.Msmq.MsmqEndpoint.<>c__DisplayClass5.<ReceiveFromTransport>b__3(Message message) in c:\sandbox\MassTransit\src\Transports\MassTransit.Transports.Msmq\MsmqEndpoint.cs:line 116
+INFO  08:51:51 Subscription Service Starting
+INFO  08:51:52 Subscription Service Started
+INFO  08:51:52 Subscription Client Added: msmq://jreeselaptop2/mt_health_control?tx=false [3e30aff0-1228-4f13-aa08-9d8e00921519]
+INFO  08:51:52 Subscription Client Removed: msmq://jreeselaptop2/mt_health_control?tx=false [240c8b13-483e-4f45-bf62-9d8a00f3d387]
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [53653665-833c-4a4f-ab31-9d8a00f3d4f5] []
+INFO  08:51:53 Unknown message type EmailService.Messages.SendNotificationMessage, EmailService.Messages, unable to add subscription
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [d9d36dfc-7775-42b1-a8ed-9d8a00f3d513] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [35927fec-b146-44a9-b905-9d8a00f3d51c] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [d558cbdc-54d1-483f-a633-9d8a00f3d526] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [7765ffc0-cf1f-4fd6-ba24-9d8a00f3d532] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [eeb3db40-5167-47b1-8ad9-9d8a00f3d53f] []
+INFO  08:51:53 Unknown message type WWT.Messages.SendAsnToWwt, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type EdiMessages.OrderRequestReceivedMessage, EdiMessages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.WwtMrnRecievedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.OrderMatchedToMrnsMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.LineItemHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type EdiMessages.OrderHasBeenShippedMessage, EdiMessages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.WwtMrnHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Health Service Starting
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [2846d932-c6f5-4f28-b524-9d8e00921649] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [805698dc-f64f-4908-aa49-9d8e00921667] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [3ae05b51-245f-4bfc-b359-9d8e0092166e] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [e441d5f1-a747-47fb-a7f2-9d8e00921675] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [1310054e-b0b7-4266-a5e8-9d8e0092167c] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [fac2aeeb-d248-4e84-986c-9d8e00921684] []
+INFO  08:51:53 Health Service Started
+INFO  08:51:53 Subscription Client Added: msmq://jreeselaptop2/mt_timeout_control?tx=false [e4be5c67-1f3b-4717-bb5f-9d8e00921698]
+INFO  08:51:53 Subscription Client Removed: msmq://jreeselaptop2/mt_timeout_control?tx=false [ab79c0d7-79a6-492c-ab12-9d8a00f3d559]
+INFO  08:51:53 Unknown message type EmailService.Messages.SendNotificationMessage, EmailService.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.SendAsnToWwt, WWT.Messages, unable to add subscription
+INFO  08:51:53 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [2a49873f-c3f4-4dde-9f48-9d8a00f3d589] []
+INFO  08:51:53 Unknown message type EdiMessages.OrderRequestReceivedMessage, EdiMessages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.WwtMrnRecievedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.OrderMatchedToMrnsMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.LineItemHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type EdiMessages.OrderHasBeenShippedMessage, EdiMessages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.ErrorProcessingMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Unknown message type WWT.Messages.WwtMrnHasBeenShippedMessage, WWT.Messages, unable to add subscription
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [0c6a39b3-1a43-43ae-adbb-9d8a00f3d5ba] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [79eb37b7-efcf-4c4d-b2fd-9d8a00f3d5bd] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [b1587fcf-bdf9-48df-a7e3-9d8a00f3d5cf] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [5cbd5152-f57d-43a5-aea1-9d8a00f3d5d5] []
+INFO  08:51:53 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [8f24e87f-abc4-4c6b-9ec0-9d8a00f3d5e3] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [009c65c6-6297-4ede-9702-9d8e009216be] []
+INFO  08:51:53 Timeout Service Starting
+INFO  08:51:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [c56b8983-cda0-4146-889f-9d8e00921701] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [8f95f3c0-0b75-4673-ac4f-9d8e00921704] []
+INFO  08:51:53 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [9c9792b3-957e-416a-a787-9d8e00921726] []
+INFO  08:51:53 Timeout Service Started
+INFO  08:51:53 Subscription Added: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [a292ca32-637b-4e90-a162-9d8e00921729] []
+INFO  08:51:54 Subscription Added: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [ceddbaee-8cfc-46f4-8fc6-9d8e0092172e] []

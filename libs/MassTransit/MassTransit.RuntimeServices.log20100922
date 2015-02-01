@@ -1,0 +1,9 @@
+INFO  06:46:47 Loading MassTransit.RuntimeServices Services...
+INFO  06:46:52 Subscription Service Starting
+INFO  06:46:53 Subscription Service Started
+INFO  06:46:54 Subscription Client Added: msmq://jreeselaptop2/mt_fedexshipping?tx=false [33d7dc78-546e-4e39-ad30-9df9006f820c]
+INFO  06:46:54 Subscription Client Removed: msmq://jreeselaptop2/mt_fedexshipping?tx=false [a92ebf81-171b-42c2-afe3-9df8008d5f71]
+INFO  06:46:54 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [3f4580d4-1613-49b8-9d33-9df8008d610b] []
+INFO  07:05:47 Subscription Client Added: msmq://jreeselaptop2/mt_fedexshipping?tx=false [2111e40e-e319-41dd-be16-9df90074f1b5]
+INFO  07:05:47 Subscription Client Removed: msmq://jreeselaptop2/mt_fedexshipping?tx=false [33d7dc78-546e-4e39-ad30-9df9006f820c]
+INFO  07:05:47 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_fedexshipping?tx=false [b285d0f6-db93-4277-8b39-9df90074f2eb] []
